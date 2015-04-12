@@ -18,8 +18,8 @@ public class ProcessHelper extends HelpersBase {
 
 	public void stopAppUnderTest() {
 		manager.getAutoItHelper()
-		.winWaitAndActivate("AddressBook Portable", "", 5000)
-		.click("Exit");
+			.winWaitAndActivate("AddressBook Portable", "", 5000)
+			.click("Exit");
 		process = null;
 //		process.destroy();
 	}
